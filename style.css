@@ -1,0 +1,58 @@
+@charset "UTF-8";
+/* CSS Document */
+/*---Layout---*/
+body{
+	margin:0;
+	position: relative;
+	background-color: #D4F0F7;
+	min-width: 630px;
+}
+
+.navbar{
+	text-decoration: none;
+	margin:0;
+	padding:0;
+
+	}
+
+wrapper{
+	background-color: #98DBE1;
+}
+
+col col-xs-12 col-md-4 col-lg-3 col-sm-12{
+	background-color: #98DBE1;
+	
+	
+}
+
+#about{ 
+padding-top:70px;
+height:575px;
+color:#434646;
+text-align:center;
+background-repeat:no-repeat;
+border:hidden;
+font-family:'Noto Serif',serif;
+text-decoration:none;}
+
+h3{
+	font-size:16px;
+	color:#434646;
+	text-decoration:none;
+	width:700px;
+	padding:20px;
+	border:20px solid #E97B94 hidden;
+	text-align:center;
+	float: center;
+	margin:50px;
+}
+
+h4{
+	
+}
+
+#footer{
+	position: absolute;
+	
+}
+
