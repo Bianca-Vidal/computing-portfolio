@@ -2,10 +2,12 @@
 /* CSS Document */
 /*---Layout---*/
 body{
-	margin:0;
-	position: relative;
-	background-color: #D4F0F7;
-	min-width: 630px;
+	width:100%;
+	background-color: #f7f8f9;
+	margin:20px;
+	padding:10px, 25px,0,25px;
+	position: center;
+	min-width: 630px;	
 }
 
 .navbar{
@@ -14,45 +16,216 @@ body{
 	padding:0;
 
 	}
+/*---End of navigation bar*/
 
-wrapper{
-	background-color: #98DBE1;
+main{
+	
+	height:auto;
+	padding-bottom:40px;
+	background-color: #b0dae1!important;
 }
 
-col col-xs-12 col-md-4 col-lg-3 col-sm-12{
-	background-color: #98DBE1;
-	
-	
+/*
+.jumbotron{
+	background-color: ;
+	height:2000px;
+*/
 }
 
-#about{ 
-padding-top:70px;
-height:575px;
-color:#434646;
-text-align:center;
-background-repeat:no-repeat;
-border:hidden;
-font-family:'Noto Serif',serif;
-text-decoration:none;}
+#banner {
+    display: flex;
+    justify-content: center;;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    color:#b0dae1;
+}
 
-h3{
-	font-size:16px;
-	color:#434646;
+.intro{
+	margin-left: 100px;
+	margin-right:100px;
+	padding-top:0;
+	padding-bottom:40px;
+	height:750px;
+}
+
+h1{
+	align-content: center center;
+	color:#232323;
+	margin:150px;
+	padding-top:50px;
 	text-decoration:none;
-	width:700px;
-	padding:20px;
-	border:20px solid #E97B94 hidden;
-	text-align:center;
-	float: center;
-	margin:50px;
-}
-
-h4{
 	
+
+}
+img{
+	float:left;
+	margin-right: : 30px;
+	padding:20px
+	max-width:70%;
+	display:block;
+	
+
 }
 
-#footer{
+
+p{
+	font-size: 14px;
+}
+
+.bottomleft{
 	position: absolute;
+	bottom: 230px;
+	left:150px;
+}
+
+img.profile{
+	float:right;
+	width:150px;
+	height:200px;
+}
+
+.column{
+	float:right;
+	width:50%;
+	padding top:30px;
+	font: 'Noto Serif';
+}
+
+.column1{
+	float: right;
+	width:50%;
+	padding: 20px;
+}
+/*---Section 2 Gallery of IT work experience---*/
+.col-sm-4{
+	width: 300px;
+	height:400px;
+	padding-top:10px;
+	padding-bottom:10px;
+	border-style:hidden;
+}
+
+.column2 {
+	float:left;
+	max-width:100%;
+	padding-right:0;
+	box-sizing: border-box;
+}
+
+.title{
+	text-align: center;
+	margin:0;
+
+}
+br{
+	padding:0;
+	margin:0;
+}
+
+hr{
+	color:rgb(53, 54, 56) !important;
+}
+
+img.top{
+	vertical-align:text-bottom;
+	margin:20px;
+
+}
+
+
+
+
+ /*--CSS responsive gallery--*/
+
+
+
+div.desc{
+	padding:10px;
+	margin:0px;
+	vertical-align: text-bottom;
+	position:right;
 	
 }
 
+.table{
+	background-color:#b0dae1 !important;
+	border:hidden;
+	padding-top: 10px;
+	width:1000px!important;
+	align-content: left!important;
+
+}
+
+
+
+
+
+
+
+}
+
+
+/*------Contact Me----*/
+.contact{font:'Noto Serif';}
+
+footer{
+	background: #2c2d2d;
+	position:absolute;
+	width:100%;
+	text-decoration: none;
+}
+
+
+
+
+/*---Social Media Button Styling---*/
+.fa{
+	padding:20px;
+	font-size:230px;
+	width:20px;
+	text-align:center;
+	text-decoration: none;
+
+	/*----Hover effect to awsome font icons----*/
+	.fa:hover{
+		opacity:0.7;
+}
+/*---Decoration of Instagram awson font icons----*/
+.fa-instagram{
+	background: #125688;
+	color:white;
+	text-decoration: none;
+	size: 200px
+}
+
+/*---Decoration of Github awsome font icon---*/
+.fa-github{
+	text-decoration: none;
+	color:white;
+	width:64px;
+}
+/*--Decoration of LinkedIn awsome font icon--*/
+.fa-linkedin{
+	text-decoration: none;
+	background: #125688;
+	padding:20px;
+	text-align: center;
+	margin:10px;
+}
+/*--- Screen Specs Media---*/
+
+@media only screen and (max-width: 700px){
+	.responsive{
+		width:49.99999%;
+		margin:6px 0;
+	}
+
+}
+
+
+@media only screen and (max-width: 500px){
+	.responsive{
+		width:100%;
+	}
+}
