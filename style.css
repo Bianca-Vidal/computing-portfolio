@@ -30,7 +30,7 @@ main{
 	background-color: ;
 	height:2000px;
 */
-}
+
 
 #banner {
     display: flex;
@@ -60,12 +60,10 @@ h1{
 }
 img{
 	float:left;
-	margin-right: : 30px;
-	padding:20px
+	margin-right:  30px;
+	padding:20px;
 	max-width:70%;
 	display:block;
-	
-
 }
 
 
@@ -163,7 +161,7 @@ div.desc{
 
 
 
-}
+
 
 
 /*------Contact Me----*/
@@ -188,7 +186,7 @@ footer{
 	text-decoration: none;
 
 	/*----Hover effect to awsome font icons----*/
-	.fa:hover{
+.fa:hover{
 		opacity:0.7;
 }
 /*---Decoration of Instagram awson font icons----*/
